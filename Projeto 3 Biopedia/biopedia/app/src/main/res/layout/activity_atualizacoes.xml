@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Atualizacoes">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Atualizações futuras:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=" -->Filtro de fauna e flora nativos da região de acordo com a localização do usuário; "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -->Uso off-line para todas as funções, sincronizando qualquer alteração no banco após houver conexão com a internet; "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -->Inserção de fotos tiradas pela câmera ou arquivos já salvo na galeria;"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -->Inserção de sons de fauna;"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -->Repositório para download e/ou upload de arquivos em pdf, tais como apostilas para estudos, livros ou qualquer outro conteúdo que o usuário achar interessante e importante para compartilhar no banco do Biopédia; "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -->Inclusão de outros conteúdos da área de Biologia além da flora e flora; "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -->Permitir ao usuário ver em seu perfil seu histórico de contribuição com o Biopédia;"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -->Implementação em outras plataformas como IOS, e desktop; "/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -->Englobamento de vários países no conteúdo;"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -->Multilinguagem;"/>
+</LinearLayout>

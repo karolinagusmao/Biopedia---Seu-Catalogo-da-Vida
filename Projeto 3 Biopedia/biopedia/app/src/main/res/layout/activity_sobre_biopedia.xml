@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bcbcbc"
+    tools:context=".Activity.SobreBiopedia">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text="O que é o Biopédia?"
+        android:textColor="#209119"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        android:textSize="24sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="        O desenvolvimento deste sistema, não ainda em sua fase inicial, mas em versões futuras, trará uma inovação para estudantes e profissionais da área ambiental, abrindo novos horizontes na área tecnológica, e na área ambiental com os requisitos que esse sistema irá oferecer, em decorrência da necessidade que existe de softwares com as funcionalidades propostas.
+        O Biopédia inovará e será um ponto inicial para que outras pessoas desenvolvam mais softwares em favor do meio ambiente, ampliando os horizontes para novas ideias." />
+
+
+</LinearLayout>

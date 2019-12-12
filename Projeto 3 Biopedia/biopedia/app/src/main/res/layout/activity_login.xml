@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    android:background="@android:color/background_light"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="-80dp"
+        android:src="@mipmap/biopedialogo" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="22dp"
+        android:autoLink="email"
+        android:hint="E-mail"
+        android:ems="10"
+        android:lineSpacingExtra="10sp"
+        android:textColor="@color/colorAccent"
+        android:inputType="textEmailAddress"
+        tools:background="#C1FFC1"/>
+
+    <EditText
+        android:id="@+id/editSenha"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="08dp"
+        android:hint="Senha"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:lineSpacingExtra="10sp"
+        android:textColor="@color/colorAccent"
+        tools:background="#C1FFC1"/>
+
+    <Button
+        android:id="@+id/btnLogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#27d300"
+        android:text="Login"
+        android:textColor="@android:color/background_light"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvAbreCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Ainda não tem conta? Clique aqui"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

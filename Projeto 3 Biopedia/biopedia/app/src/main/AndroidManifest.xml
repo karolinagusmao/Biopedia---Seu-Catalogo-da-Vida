@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.karol.biopedia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/biopedialogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.CadastroActivity" />
+        <activity android:name=".Activity.CadastroFauna" />
+        <activity android:name=".Activity.CadastroFlora" />
+        <activity
+            android:name=".Activity.PrincipalActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.ViewFauna" />
+        <activity android:name=".Activity.ViewFlora" />
+        <activity
+            android:name=".Activity.DatasImportantes"
+            android:label="@string/title_activity_datas_importantes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.InicioFauna" />
+        <activity android:name=".Activity.InicioFlora" />
+        <activity android:name=".Activity.SobreBiopedia" />
+        <activity android:name=".Activity.EditarAnimais" />
+        <activity android:name=".Activity.EditarPlantas" />
+        <activity android:name=".Activity.Atualizacoes" />
+        <activity android:name=".Activity.Perfil"></activity>
+    </application>
+
+</manifest>

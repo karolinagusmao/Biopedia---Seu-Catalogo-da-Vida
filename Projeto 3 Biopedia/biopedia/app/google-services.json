@@ -1,0 +1,115 @@
+{
+  "project_info": {
+    "project_number": "577988502711",
+    "firebase_url": "https://biopedia-catalogacao.firebaseio.com",
+    "project_id": "biopedia-catalogacao",
+    "storage_bucket": "biopedia-catalogacao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577988502711:android:4d5f20a0f4f02102",
+        "android_client_info": {
+          "package_name": "com.biopedia.karol.biopedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577988502711-4nkm99t8s37dke68dfue7klp5f9kqrn7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.biopedia.karol.biopedia",
+            "certificate_hash": "c2b96eef5f26465367795785914bcff2864a008d"
+          }
+        },
+        {
+          "client_id": "577988502711-o4g8l9lsg6tuna62q1a193nkksfgjk6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLiaOrKkYBh8Mj7HRh7QXgmpYLCNZd-bo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577988502711-o4g8l9lsg6tuna62q1a193nkksfgjk6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577988502711:android:0a62637ff717ff43",
+        "android_client_info": {
+          "package_name": "com.karol.biopedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577988502711-7kog0hi1qee3lt6b68ilocopva4ks6mf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karol.biopedia",
+            "certificate_hash": "c2b96eef5f26465367795785914bcff2864a008d"
+          }
+        },
+        {
+          "client_id": "577988502711-vkhqisikjh6phdcuf23mkqdi3107tufo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karol.biopedia",
+            "certificate_hash": "0a082697085fa9d9bb1098df2dbce167e7da3b35"
+          }
+        },
+        {
+          "client_id": "577988502711-80khj5efe8rhltk949dhveq809fecseh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karol.biopedia",
+            "certificate_hash": "fc54d5d532b6868c1b4fc2712b57df05e19b1599"
+          }
+        },
+        {
+          "client_id": "577988502711-o4g8l9lsg6tuna62q1a193nkksfgjk6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLiaOrKkYBh8Mj7HRh7QXgmpYLCNZd-bo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577988502711-o4g8l9lsg6tuna62q1a193nkksfgjk6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

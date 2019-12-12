@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.EditarPlantas">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/perfilCadFlora"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/picflo" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="#F0FFF0"
+                android:text="Reino Plantae ou Metaphyta ---> Planta "
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textSize="15sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Domínio"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editDominio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Domínio"
+                android:inputType="" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Classe"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editClasseF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Classe"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Filo"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editFiloF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Filo"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Ordem"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editOrdemF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Ordem"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Divisão"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editDivisao"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Divisão"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Família"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editFamiliaF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Família"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:text="Gênero"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editGeneroF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Gênero"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Espécie"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editEspecieF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Espécie"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Grupo"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editGrupo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Grupo"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Nome Comum"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editNomeComumF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Nome Comum"
+                android:inputType="" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Nome Científico"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editNomeCientificoF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Nome Científico"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Nome em Inglês"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editNomeIngF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Nome Inglês"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Nutrição"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editNutricao"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Nutrição"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Classificação"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editClassificacao"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Classificação"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Reprodução"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editReproducaoF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Reprodução"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="Organização Celular"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editOrgCel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Organização Celular"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tipo Célula"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editTipoCel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Tipo Célula"
+                android:inputType="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Outras Características"
+                android:layout_marginLeft="15dp"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle"
+                android:textStyle="bold|italic"
+                android:background="#F0FFF0"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/editCaracteristicasF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Caracteristicas"
+                android:inputType="" />
+
+            <Button
+                android:id="@+id/btnEditarFlora"
+                android:layout_width="259dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="22dp"
+                android:backgroundTint="#27d300"
+                android:text="Cadastrar"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnVoltar4"
+                android:layout_width="259dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+                android:backgroundTint="#27d300"
+                android:text="Voltar"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

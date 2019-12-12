@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtViewFilo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Filo: "
+        android:text="Filo"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/txtViewClasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Classe: "
+        android:text="Classe"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtViewInfraclasse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Infraclasse: "
+        android:text="@string/infraClasse"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/txtViewOrdem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ordem: "
+        android:text="Ordem"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txtViewSuperfamilia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Superfamilia: "
+        android:text="Superfamilia"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txtViewFamilia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Família: "
+        android:text="Família"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txtViewGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gênero: "
+        android:text="Gênero"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txtViewEspecie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Espécie:"
+        android:text="Espécie"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txtViewSubespecie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subespécie: "
+        android:text="Subespecie"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/txtViewNomeComum"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="50dp"
+        android:hint="Nome Comum: "
+        android:text="Nome Comum"
+        android:visibility="visible" />
+    <TextView
+        android:id="@+id/txtViewNomeCient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome Científico: "
+        android:visibility="gone"
+        android:text="Nome Científico"/>
+    <TextView
+        android:id="@+id/txtViewNomeIng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome Inglês: "
+        android:text="Nome Inglês"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txtViewSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sexo: "
+        android:text="Sexo"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txtViewHabitat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Habitat: "
+        android:text="Habitat"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txtViewReproducao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reprodução: "
+        android:text="Reprodução"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txtViewIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Idade: "
+        android:text="Idade"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txtViewConserv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Conservação: "
+        android:text="Conservação"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txtViewCaract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Caracteristicas: "
+        android:text="Caracteristicas"
+        android:visibility="gone"/>
+
+</LinearLayout>

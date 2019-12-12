@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_fauna"
+            android:icon="@drawable/ic_long_click_favorite_clicked"
+            android:title="Fauna" />
+        <item
+            android:id="@+id/nav_flora"
+            android:icon="@drawable/ic_favorite"
+            android:title="Flora" />
+        <item
+            android:id="@+id/nav_editPerfil"
+            android:icon="@drawable/ic_perfil"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_dtAmbientais"
+            android:icon="@drawable/ic_data"
+            android:title="Datas Ambientais"/>
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sobre Biopédia" />
+
+            <item
+                android:id="@+id/nav_updates"
+                android:icon="@drawable/ic_settings"
+                android:title="Atualizações Futuras" />
+        </menu>
+    </item>
+
+</menu>
